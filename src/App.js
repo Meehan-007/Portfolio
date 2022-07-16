@@ -2,7 +2,8 @@ import About from './components/About';
 import './index.css'; 
 import Nav from './components/nav'; 
 import ContactForm from './components/contact'; 
-import Personalsig from './components/hallmark-sig';
+import Personalsig from './components/hallmark-sig'; 
+import ResumeForm from './components/Resume';
 import React, { useState } from 'react';
 
 function App() { 
@@ -17,14 +18,14 @@ function App() {
   setContactSelected={setContactSelected}
      ></Nav>
 
-     {!contactSelected ? (
-  <>
+     <ContactForm></ContactForm> 
+ 
+
+
     <About></About> 
-    <Personalsig className="full"></Personalsig>
-  </>
-) : (
-    <ContactForm></ContactForm>
-  )}
+    <Personalsig className="full"></Personalsig> 
+    
+  
     </div>
   );
 }
