@@ -14,50 +14,20 @@ function About() {
       <h1 className='text-center my-2'>Who am I?</h1> 
       <img src={coverImage} className='my-5' style={{ width: "100%" }} alt="Sea view" />  
 
-         <div className='flex-row space-around my-5'> 
-             <img src={coverImage1} alt="Sam" className="img-thumbnail"/> 
-             <p className='container-small'> PENIS ipsum dolor sit amet, consectetur 
-             adipiscing elit, sed do eiusmod tempor incididunt 
-             ut labore et dolore magna aliqua. Ut enim ad minim 
-             veniam, quis nostrud exercitation ullamco laboris 
-             nisi ut aliquip ex ea commodo consequat. Duis aute 
-             irure dolor in reprehenderit in voluptate velit esse cillum 
-             dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-              id est laborum.</p>  
+         <div className='flex-row space-around my-5'>
+             <p> As an experienced Full-Stack Developer, I specialize in designing and building robust applications utilizing the MERN stack. Additionally, I possess strong expertise in developing exceptional user experiences for various web-based products.
+
+With over 1,000 hours of experience in tutoring students, I have honed my skills in effectively communicating complex technical concepts in a simplified and digestible manner. My comprehensive knowledge of web development bootcamps allows me to provide a high level of support and guidance to my students, ensuring their success in achieving their goals.
+
+Overall, my combination of technical expertise and teaching experience positions me as a valuable asset to any team seeking a dedicated Full-Stack Developer with a passion for educating and empowering others.</p>  
          </div> 
 
-         <p>  ipsum dolor sit amet, consectetur 
-             adipiscing elit, sed do eiusmod tempor incididunt 
-             ut labore et dolore magna aliqua.  Excepteur sint occaecat 
-             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-              id est laborum.</p>  
+         
          
 
-              <div className='flex-row space-around my-5'> 
-              
-             <p className='container-small'> PENIS ipsum dolor sit amet, consectetur 
-             adipiscing elit, sed do eiusmod tempor incididunt 
-             ut labore et dolore magna aliqua. Ut enim ad minim 
-             veniam, quis nostrud exercitation ullamco laboris 
-             nisi ut aliquip ex ea commodo consequat. Duis aute 
-             irure dolor in reprehenderit in voluptate velit esse cillum 
-             dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-              id est laborum.</p>  
-              <img src={coverImage2} alt="vietnam cliffs" className="img-thumbnail"/>
-         </div> 
+             
 
-         <p> Lorem ipsum dolor sit amet, consectetur 
-             adipiscing elit, sed do eiusmod tempor incididunt 
-             ut labore et dolore magna aliqua. Ut enim ad minim 
-             veniam, quis nostrud exercitation ullamco laboris 
-             nisi ut aliquip ex ea commodo consequat. Duis aute 
-             irure dolor in reprehenderit in voluptate velit esse cillum 
-             dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
-             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-              id est laborum.</p>  
-
+        
        
 
 
