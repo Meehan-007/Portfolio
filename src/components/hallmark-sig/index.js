@@ -1,28 +1,23 @@
 import React from 'react'; 
 import coverImage1 from "../../assets/Aboutpage/1.jpeg"; 
+import greenlinkedin from '../../assets/homepage/green.link.svg'; 
+import greenmail from '../../assets/homepage/green.mail.svg'
 
 function Personalsig() {
     return ( 
-        <section>
-<div className='altbackground py-1'>  
-
-<div className='container text-center'> 
-
-  <h4 className='my-2'> Here is a quote to convince you I am a man of sophstication</h4>  
-
-  <h6 className='my-2'> "Nitwit! Blubber! Oddment! Tweak!" - <span> Albus Dumbeldore</span></h6>
-
-    <div className='flex-row space-around '>
-    <img src={coverImage1} alt="Me on a boat" className="img-thumbnail"/> 
-    <img src={coverImage1} alt="Me on a boat" className="img-thumbnail"/>  
-    <img src={coverImage1} alt="Me on a boat" className="img-thumbnail"/> 
-    </div> 
-    </div>
-    </div>  
+        
 
 
-
-</section>
+              <footer className='column center'>  
+                 
+                 <div className='flex-row center'><h1 className='text-center'> Let's <span className='primary'> Connect! </span></h1> </div>
+                 <div className="space-around flex-row"> 
+                    <div className="icon mx-1"> <img src={greenmail}/> </div> 
+                    <div className="icon mx-1" style={{ backgroundColor: 'white', borderRadius: '90px' }}> <img src={greenlinkedin}/>  </div>
+                </div> 
+                 
+                </footer>
+        
 );
 }
 
