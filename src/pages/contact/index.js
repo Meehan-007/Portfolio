@@ -12,8 +12,8 @@ function ContactForm() {
     e.preventDefault();
     if (!errorMessage) {
       setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState); 
-      console.log(setFormState)
+      console.log(formState); 
+      
     }
   };
 
@@ -56,7 +56,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data-testid="button" className='reghover' type="submit">Submit</button>
       </form>
     </section>
   );

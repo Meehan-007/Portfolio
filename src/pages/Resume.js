@@ -10,7 +10,7 @@ function ResumeForm() {
     return ( 
        <div className='column center margintop'> 
         <img src={coverImage3} alt="Resume"/> 
-      <a href={resume} download="Resume.pdf">  <button type='submit'className='margintop'> Download </button> </a> 
+      <a href={resume} download="Resume.pdf">  <button type='submit'className='margintop reghover'> Download </button> </a> 
 
         </div>
 
