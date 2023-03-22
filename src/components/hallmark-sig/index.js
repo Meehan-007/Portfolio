@@ -1,5 +1,6 @@
-import React from 'react'; 
-import coverImage1 from "../../assets/Aboutpage/1.jpeg"; 
+import React from 'react';  
+import { Link } from 'react-router-dom'; 
+
 import greenlinkedin from '../../assets/homepage/green.link.svg'; 
 import greenmail from '../../assets/homepage/green.mail.svg'
 
@@ -12,8 +13,8 @@ function Personalsig() {
                  
                  <div className='flex-row center'><h1 className='text-center'> Let's <span className='primary'> Connect! </span></h1> </div>
                  <div className="space-around flex-row"> 
-                    <div className="icon mx-1"> <img src={greenmail}/> </div> 
-                    <div className="icon mx-1" style={{ backgroundColor: 'white', borderRadius: '90px' }}> <img src={greenlinkedin}/>  </div>
+                    <Link to="mailto: Meehan.007@hotmail.com"><div className="icon mx-1"> <img src={greenmail}/> </div> </Link>
+                    <Link to="https://www.linkedin.com/in/patrick-meehanux/" target="_blank">  <div className="icon mx-1" style={{ backgroundColor: 'white', borderRadius: '90px' }}> <img src={greenlinkedin}/>  </div> </Link>
                 </div> 
                  
                 </footer>

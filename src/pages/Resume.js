@@ -1,5 +1,7 @@
-import React from 'react'; 
+import React from 'react';  
+import { Link } from 'react-router-dom';
 import coverImage3 from "../assets/Resume/Patrick-Meehan-Resume.jpg"; 
+import resume from "../assets/Resume/Resume.pdf"
 
 
 
@@ -8,7 +10,7 @@ function ResumeForm() {
     return ( 
        <div className='column center margintop'> 
         <img src={coverImage3} alt="Resume"/> 
-        <button type='submit'className='margintop'> Download </button>
+      <a href={resume} download="Resume.pdf">  <button type='submit'className='margintop'> Download </button> </a> 
 
         </div>
 

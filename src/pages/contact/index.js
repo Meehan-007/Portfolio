@@ -12,7 +12,8 @@ function ContactForm() {
     e.preventDefault();
     if (!errorMessage) {
       setFormState({ [e.target.name]: e.target.value });
-      console.log('Form', formState);
+      console.log('Form', formState); 
+      console.log(setFormState)
     }
   };
 

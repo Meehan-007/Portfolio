@@ -31,8 +31,8 @@ function Nav(props) {
     </ul> 
 
     <div class="space-around flex-row w-10"> 
-            <div class="icon"> <img src={greenmail} alt="mail icon"/> </div> 
-            <div class="icon"> <img src={greenlinkedin} alt="linkedin"/> </div>
+    <Link to="mailto: Meehan.007@hotmail.com"> <div class="icon"> <img src={greenmail} alt="mail icon"/> </div> </Link>
+          <Link to="https://www.linkedin.com/in/patrick-meehanux/" target="_blank">  <div class="icon"> <img src={greenlinkedin} alt="linkedin"/> </div> </Link> 
         </div>
   </nav>
     

@@ -22,19 +22,7 @@ With over 1,000 hours of experience in tutoring students, I have honed my skills
 Overall, my combination of technical expertise and teaching experience positions me as a valuable asset to any team seeking a dedicated Full-Stack Developer with a passion for educating and empowering others.</p>  
          </div> 
 
-         
-         
-
-             
-
-        
-       
-
-
       </main> 
-
-
-  
 
     </section>
   );
