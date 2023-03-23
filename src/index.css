@@ -185,7 +185,8 @@ nav ul {
   display: flex;
   flex-wrap: wrap; 
   align-items: center;
-  list-style: none; 
+  list-style: none;  
+  justify-content: center;
  
 
 } 
@@ -199,7 +200,7 @@ nav  li {
 }
 
 textarea {
-	width: 600px;
+	width: 100%;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -218,7 +219,7 @@ textarea {
 
 .flex-row {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .space-between {
@@ -444,7 +445,9 @@ a {
   width: 10%;
 } 
 
-
+.web-none {
+  display: none;
+}
 
 
 
@@ -562,7 +565,8 @@ footer {
    display: flex; 
    flex-direction: column; 
    justify-content: space-evenly;
-   height: 350px;
+   height: 350px; 
+   margin-left: 5%;
    color:white;  
    z-index: 3; 
 } 
@@ -582,6 +586,10 @@ footer {
   width: 60% 
 } 
 
+.menuNav.showMenu {
+  width: 100%;
+} 
+
 .hometext1 { 
   line-height: 1.5;
   width: 80%; 
@@ -589,8 +597,7 @@ footer {
   display: flex;
   margin-top: 25px;  
   color:black;  
-  z-index: 3; 
-  height: 250px;  
+  z-index: 3;   
   flex-direction: column; 
   justify-content: space-around;
 
@@ -604,50 +611,13 @@ footer {
    .hometext { 
        width: 60%; 
    }
-
-} 
-
-@media screen and (max-width: 768px) {  
-
- 
-  .hero {   
-      background-position: 50%;   
-   }  
-
-    .hometext { 
-        align-content: center; 
-        justify-content: center; 
-        align-items: center; 
-    } 
+   form {
+    width: 60%;
+  } 
 
     button{ 
-        width: 200px;
-    } 
-
-    .main1 { 
-        flex-direction: column; 
-        justify-content: left;  
-        padding: 25px; 
-        margin-left: 0;
-        
-    } 
-
-    .hometext2 {  
-        width: 80%;
-        order: 2; 
-        text-align: left; 
-        justify-content: left; 
-        margin: 25px; 
-    } 
-
-    .homemobile2 { 
-        width: 50%; 
-        flex: 1 100%; 
-    } 
-
-    .homemobile2 img { 
-        width: 100%;
-    } 
+        width: 15rem;
+    }   
 
     #Grove-images { 
       width: 100%; 
@@ -656,15 +626,132 @@ footer {
   #Grove-images img { 
       width: 100%; 
   }
+  .hero {   
+    background-position: 50%;   
+ }   
+
+
+
+.main1 { 
+  flex-direction: column; 
+  justify-content: left;  
+  padding: 25px; 
+  margin-left: 0;
+  
+} 
+
+.hometext2 {  
+  width: 80%;
+  order: 2; 
+  text-align: left; 
+  justify-content: left; 
+  margin: 25px; 
+} 
+
+.homemobile2 { 
+  width: 50%; 
+  flex: 1 100%; 
+} 
+
+}
+
+@media screen and (max-width: 768px) {  
+  
+ 
+  
+
+    /* .hometext { 
+        align-content: center; 
+        justify-content: center; 
+        align-items: center; 
+    }  */
+
+    
+
+    
+
+  
 } 
 
 
 @media screen and (max-width: 575px) {  
 
-
+  .menubar{
+    background: transparent;;
+  border: none; 
+  z-index: 10; 
+  padding: 0; 
+  text-align: start;
+  }
+  .mobile-show {
+    display:flex;
+  } 
+  .mobile-hide{
+    display: none;
+  }
+form {
+  width: 80%;
+}
    .hometext { 
-       width: 100%;
+       width: 95%;
        justify-self: center;
-   }  
+   }   
 
+   .hometext1{
+     width:100%;
+   } 
+   .hometext2{
+     width: 100%;
+   }
+
+   /* .hometext1{
+     text-align: left;
+   } */
+.main{
+  padding: 25px;
+  width: 100%;
+} 
+
+p {
+  width: 100%;
+}
+   .menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: rgb(44, 44, 44);
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 0;
+    overflow: hidden;
+    max-width: 100%;
+    z-index: 9;
+  }
+
+
+  .sidenav {
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  } 
+
+  .homemobile2{
+    width:100%;
+  } 
+  .buttonmobile {
+    width: 9rem; 
+    margin: calc(.5rem)
+  }  
+  #grovealt{
+    margin-left: 0;
+  } 
+
+  h1 {
+    font-size: 1.5rem;
+}
 } 

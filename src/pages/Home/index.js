@@ -43,8 +43,8 @@ function Home() {
              I developed an app that allows users to explore the menu and learn about the nutritional information of each smoothie.
             </p> 
             <div className='flex-row my-2'>
-           <Link to="https://apex-smoothies.herokuapp.com/" target="_blank" > <button id="grovealt" type="submit"> View Website </button> </Link>
-           <Link to="https://github.com/Meehan-007/Apex-Smoothie-" target="_blank" > <button className='mx-5 reghover' id="grovereg" type="submit"> View Project </button> </Link>
+           <Link to="https://apex-smoothies.herokuapp.com/" target="_blank" > <button id="grovealt" className='buttonmobile' type="submit"> View Website </button> </Link>
+           <Link to="https://github.com/Meehan-007/Apex-Smoothie-" target="_blank" > <button className='mx-5 reghover buttonmobile' id="grovereg" type="submit"> View Project </button> </Link>
             </div>
         </div>
         
