@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aec789c2.css",
+    "main.js": "/static/js/main.a65d38a7.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/APEX.png": "/static/media/APEX.bef9c4ef579371179476.png",
+    "static/media/Resume.pdf": "/static/media/Resume.cae809b41a95b3788e7d.pdf",
+    "static/media/pizza.png": "/static/media/pizza.abe39da21fea121eb0ab.png",
+    "static/media/weather.png": "/static/media/weather.f4ab6bddb403a5dbffca.png",
+    "static/media/deepthought.png": "/static/media/deepthought.75342f4586dd138ec974.png",
+    "static/media/book.png": "/static/media/book.481959150e454b61e7b9.png",
+    "static/media/0.jpeg": "/static/media/0.6973f4a18347fc6abf26.jpeg",
+    "static/media/Patrick-Meehan-Resume.jpg": "/static/media/Patrick-Meehan-Resume.e40d51433d5fab52ba15.jpg",
+    "static/media/2.jpeg": "/static/media/2.28a0d02e903d56eee86d.jpeg",
+    "static/media/1.jpeg": "/static/media/1.664a2b67f856875e9d19.jpeg",
+    "static/media/green.link.svg": "/static/media/green.link.c1a291ddc40b5f3a06fd743ccc5107ce.svg",
+    "index.html": "/index.html",
+    "static/media/green.mail.svg": "/static/media/green.mail.73df40e5da3dd1ccd0ec7f342c4f5e4b.svg",
+    "main.aec789c2.css.map": "/static/css/main.aec789c2.css.map",
+    "main.a65d38a7.js.map": "/static/js/main.a65d38a7.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec789c2.css",
+    "static/js/main.a65d38a7.js"
+  ]
+}
