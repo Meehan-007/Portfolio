@@ -15,10 +15,10 @@ function ContactForm() {
 const TEMPLATE_ID = "template_wjmjyql";
 const USER_ID = "K7xKhhWwXTxxaJhTV"; 
 
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [formState, setFormState] = useState({ name: '', from_email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
+  const { name, from_email, message } = formState;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -72,11 +72,11 @@ const USER_ID = "K7xKhhWwXTxxaJhTV";
       
         <div className='my-5 column'>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="user_name" defaultValue={name} onBlur={handleChange} />
+          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div className='my-5 column'>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
+          <label htmlFor="from_email">Email address:</label>
+          <input type="email" name="email" defaultValue={from_email} onBlur={handleChange} />
         </div>
         <div>
           <label htmlFor="message">Message:</label>
