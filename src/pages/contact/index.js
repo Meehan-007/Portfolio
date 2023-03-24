@@ -67,8 +67,8 @@ const USER_ID = "K7xKhhWwXTxxaJhTV";
 
   return (
     <section className='column full center margin-top '>
-      <h1>Contact me</h1>
-      <form id="contact-form" className='padding-top' onSubmit={handleSubmit}> 
+      <h1 className='py-2'>Contact me</h1>
+      <form id="contact-form"  onSubmit={handleSubmit}> 
       
         <div className='my-5 column'>
           <label htmlFor="name">Name:</label>
