@@ -1,8 +1,20 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
+import emailjs from 'emailjs-com';
+import { Form, Input, TextArea, Button } from 'semantic-ui-react';
+import Swal from 'sweetalert2'; 
+import { validateEmail } from '../../utils/helpers'; 
 
-import { validateEmail } from '../../utils/helpers';
 
-function ContactForm() {
+
+
+
+
+function ContactForm() { 
+
+  const SERVICE_ID = "service_jxwzr3o";
+const TEMPLATE_ID = "template_wjmjyql";
+const USER_ID = "K7xKhhWwXTxxaJhTV"; 
+
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -10,14 +22,33 @@ function ContactForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!errorMessage) {
-      setFormState({ [e.target.name]: e.target.value });
-      console.log(formState); 
+    if (!errorMessage) { 
+
+      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+      .then((result) => {
+        console.log(result.text);
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent Successfully'
+        })
+      }, (error) => {
+        console.log(error.text);
+        Swal.fire({
+          icon: 'error',
+          title: 'Ooops, something went wrong',
+          text: error.text,
+        })
+      });
+    e.target.reset()
+  };
       
-    }
+      
+    
   };
 
-  const handleChange = (e) => {
+  const handleChange = (e) => { 
+    
+
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
@@ -36,12 +67,12 @@ function ContactForm() {
 
   return (
     <section className='column full center margin-top '>
-      
-      <form id="contact-form" className='padding-top' onSubmit={handleSubmit}> 
       <h1>Contact me</h1>
+      <form id="contact-form" className='padding-top' onSubmit={handleSubmit}> 
+      
         <div className='my-5 column'>
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+          <input type="text" name="user_name" defaultValue={name} onBlur={handleChange} />
         </div>
         <div className='my-5 column'>
           <label htmlFor="email">Email address:</label>
