@@ -625,9 +625,6 @@ footer {
   #Grove-images img { 
       width: 100%; 
   }
-  .hero {   
-    background-position: center;   
- }   
 
 
 
@@ -675,12 +672,27 @@ footer {
 
 @media screen and (max-width: 575px) {  
 
+
+
+  .hero { 
+    
+    background-attachment: inherit;
+    background-position: center; 
+  
+  }   
+
+  /* .hero {
+    background-size: 100% 100%
+  } */
+
+
   .menubar{
     background: transparent;;
   border: none; 
   z-index: 10; 
   padding: 0; 
-  text-align: left;
+  text-align: left; 
+  width: auto;
   }
   .mobile-show {
     display:flex;
