@@ -505,7 +505,7 @@ section {
 
 .icon { 
     height: 30px; 
-    width: fit-content;
+    width: 30px;
 } 
 
 .icon img { 
