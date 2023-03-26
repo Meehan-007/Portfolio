@@ -542,9 +542,11 @@ footer {
 
 .hero { 
   background-image: url("./assets/homepage/0.jpeg");
-  background-size: cover;
-  background-attachment: fixed; 
-  background-position: 80%;   
+  /* background-size: cover;
+  background-attachment: fixed;  
+  background-position: 80%;     */ 
+  background-size: 100%; 
+  background-repeat: no-repeat;
   z-index: 1; 
   padding: 0;
 }  
@@ -678,7 +680,7 @@ footer {
     
     background-attachment: inherit;
     background-position: center; 
-  
+    background-image: url("./assets/homepage/0.jpeg");
   }   
 
   /* .hero {
@@ -692,7 +694,8 @@ footer {
   z-index: 10; 
   padding: 0; 
   text-align: left; 
-  width: auto;
+  width: 30px; 
+  height: 30px;
   }
   .mobile-show {
     display:flex;
