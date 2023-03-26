@@ -33,9 +33,9 @@ function Nav(props) {
 
 <button className='menubar' onClick={handleToggle}>
   {navbarOpen ? (
-    <MdClose style={{ color: "#fff" }} className='icon'/>
+    <MdClose style={{ color: "#fff" }} />
   ) : (
-    <FiMenu style={{ color: "#7b7b7b" }} className='icon'/>
+    <FiMenu style={{ color: "#7b7b7b" }} />
   )}
 </button> 
 
