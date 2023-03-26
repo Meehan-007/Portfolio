@@ -17,17 +17,16 @@ function Home() {
 <div> 
     
 
-<section className="hero" id="overlay"> 
- 
+<section className="hero"> 
+  <div id="overlay"> 
     <div className="hometext"> 
         <h1> Hey, I'm <span style={{ color: '#FFFFFF', fontWeight: 'bold' }}> PATRICK MEEHAN </span></h1>
 
-     <p> I'm a UX Designer who spends way too much time thinking about my user's motivations. 
-        I find nothing in life gives me as much pleasure as having an epiphany on a Friday night.
+     <p> I am a front-end engineer with experience in UX design, and I have built countless websites using the MERN stack.
         </p> 
        <Link to="/contact">  <button id="alt" type="submit"> Contact Me </button> </Link>
     </div> 
-
+    </div>
 </section>
 
     <section className="main" id="work"> 
