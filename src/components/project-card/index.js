@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import coverImage1 from "../../assets/Aboutpage/1.jpeg"; 
 
 
 
 
 
-function projectcard() {
+function projectcard() { 
+
     return (
     
 
