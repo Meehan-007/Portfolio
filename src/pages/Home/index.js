@@ -77,7 +77,7 @@ function Home() {
 </p>
         <div className='flex-row my-2'> 
       <Link to="https://booksearch-mrbj.onrender.com/" target="_blank"> <button className='btn-S btn-alt althover' type="submit"> View Website </button> </Link> 
-      <Link to="https://github.com/Meehan-007/hw21" target="_blank"> <button className='btn-S mx-2 reghover' type="submit"> View Project </button> </Link> 
+      <Link to="https://github.com/Meehan-007/Book-Search" target="_blank"> <button className='btn-S mx-2 reghover' type="submit"> View Project </button> </Link> 
         </div>
     </div> 
         
