@@ -1,6 +1,5 @@
 import React from 'react';  
-import { Link } from 'react-router-dom';
-import coverImage3 from "../assets/Resume/Patrick-Meehan-Resume.jpg"; 
+import coverImage3 from "../assets/Resume/Resume.jpg"; 
 import resume from "../assets/Resume/Resume.pdf"
 
 

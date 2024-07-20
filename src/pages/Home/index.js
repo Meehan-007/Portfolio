@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom';
-// import apexCover from "../../assets/homepage/APEX.png"; 
+import apexCover from "../../assets/homepage/Apex.png"; 
 import deepthoughtCover from "../../assets/homepage/deepthought.png"; 
 import bookCover from "../../assets/homepage/book.png";  
 import weatherCover from "../../assets/homepage/weather.png";  
@@ -34,8 +34,8 @@ function Home() {
     <section className="main" id="work"> 
         
         <div id="Grove-images"> 
-            {/* <img src={apexCover} alt="cover of a smoothie app website"/>  */}
-        </div>
+            <img src={apexCover} alt="cover of a smoothie app website"/> 
+        </div> 
         
         <div className="hometext1"> 
             <h1> <span style={{ color: '#2d7fe8' }}> Apex Smoothies </span> </h1>

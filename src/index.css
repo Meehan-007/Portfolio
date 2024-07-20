@@ -580,11 +580,15 @@ footer {
 #Grove-images { 
   display: flex; 
   align-content: center; 
-  justify-content: center;
+  justify-content: center; 
+
 }
 
 #Grove-images img { 
-  width: 60% 
+  width: 60%; 
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
 } 
 
 .menuNav.showMenu {
@@ -593,7 +597,7 @@ footer {
 
 .hometext1 { 
   line-height: 1.5;
-  width: 80%; 
+  width: 100%; 
   text-align: left;  
   display: flex;
   margin-top: 25px;  
