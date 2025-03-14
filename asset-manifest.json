@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.564d01cd.css",
-    "main.js": "/static/js/main.f48d74d6.js",
+    "main.js": "/static/js/main.744af3f5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Apex.png": "/static/media/Apex.ba2c50409a85c05f4491.png",
     "static/media/weather.png": "/static/media/weather.f4ab6bddb403a5dbffca.png",
@@ -11,16 +11,17 @@
     "static/media/0.jpeg": "/static/media/0.6973f4a18347fc6abf26.jpeg",
     "static/media/Resume.jpg": "/static/media/Resume.ff80b13493bc2220067e.jpg",
     "static/media/2.jpeg": "/static/media/2.28a0d02e903d56eee86d.jpeg",
+    "static/media/bibleBotCover.png": "/static/media/bibleBotCover.e6589e98b7a2b0f9ca5a.png",
     "static/media/1.jpeg": "/static/media/1.664a2b67f856875e9d19.jpeg",
     "static/media/green.link.svg": "/static/media/green.link.c1a291ddc40b5f3a06fd743ccc5107ce.svg",
     "index.html": "/index.html",
     "static/media/green.mail.svg": "/static/media/green.mail.73df40e5da3dd1ccd0ec7f342c4f5e4b.svg",
     "main.564d01cd.css.map": "/static/css/main.564d01cd.css.map",
-    "main.f48d74d6.js.map": "/static/js/main.f48d74d6.js.map",
+    "main.744af3f5.js.map": "/static/js/main.744af3f5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.564d01cd.css",
-    "static/js/main.f48d74d6.js"
+    "static/js/main.744af3f5.js"
   ]
 }
