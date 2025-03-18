@@ -1,6 +1,6 @@
 import React from 'react';  
-import coverImage3 from "../assets/Resume/Resume.jpg"; 
-import resume from "../assets/Resume/Resume.pdf"
+import coverImage3 from "../assets/Resume/resume.jpg"; 
+import resume from "../assets/Resume/resume.pdf"
 
 
 
